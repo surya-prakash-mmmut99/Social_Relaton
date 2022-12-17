@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+body{
+    padding: 1rem 1.5rem;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+html{
+    font-size:70.5%;
+}
+
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    
+    color:black
+}
+
+
+@media(max-width:998px){
+    html{
+        font-size: 70%;
+    }
+}
+@media(max-width:768px){
+    html{
+        font-size: 40%;
+    }
+}
